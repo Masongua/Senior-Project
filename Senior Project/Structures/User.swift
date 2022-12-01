@@ -14,7 +14,10 @@ public struct NewUser{
     var lastName:String
     var password:String
     
-    init?(_ userName:String?, _ firstName:String?, _ lastName:String?, _ password:String?){
+    // IDK if we need it for when we implement data base
+    // We might so I'm leaving it
+    
+    /*init?(_ userName:String?, _ firstName:String?, _ lastName:String?, _ password:String?){
         
         guard let username = userName, let firstName = firstName, let lastName = lastName, let password = password else{return nil}
         
@@ -23,4 +26,5 @@ public struct NewUser{
         self.lastName = lastName
         self.password = password
     }
+    */
 }
